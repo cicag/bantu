@@ -1,0 +1,16 @@
+<?php
+require 'functions.php';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BANTU</title>
+</head>
+<body>
+    <h1>BANTU</h1>
+    <form action="index2.php" method="POST">
+        <input type="text" name="keyword" size="60" autofocus placeholder="pusing, gemetar" autocomplete="off">
+        <button type="submit" name="cari"></a>Cari!</button>
+    </form>
+</body>
+</html>
