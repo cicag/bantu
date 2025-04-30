@@ -1,0 +1,117 @@
+/* General page style */
+.page {
+    background-color: #d8e6e6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the screen */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding-top: 260px; 
+    box-sizing: border-box; /* Ensure padding doesn't affect overall height */
+}
+
+/* Center container */
+.center-container {
+    text-align: center;
+    width: 100%; /* Ensure proper width */
+}
+
+/* Title style */
+.title {
+    color: #d0021b;
+    font-size: 100px;
+    margin-bottom: 20px; /* Space between title and form */
+}
+
+/* Form style */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input style */
+.search-input {
+    width: 100%; /* Make input width 100% on smaller screens */
+    max-width: 400px; /* Maximum width for larger screens */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button style */
+.search-button {
+    padding: 15px 20px;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for the button */
+.search-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Placeholder text */
+.search-input::placeholder {
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    /* Title style for smaller screens */
+    .title {
+        font-size: 60px; /* Reduce title size on tablets */
+        margin-bottom: 15px;
+    }
+
+    /* Adjust form layout */
+    .search-form {
+        flex-direction: column; /* Stack the input and button vertically */
+    }
+
+    .search-button {
+        margin-left: 0; /* Remove margin between input and button */
+        margin-top: 10px; /* Add space between input and button */
+    }
+
+    /* Input and button adjustments for smaller screens */
+    .search-input {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .search-button {
+        width: 100%;
+        max-width: 120px; /* Make button smaller on mobile */
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Title style for small mobile screens */
+    .title {
+        font-size: 45px; /* Further reduce title size */
+        margin-bottom: 10px;
+    }
+
+    .search-input {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .search-button {
+        padding: 12px 18px;
+        font-size: 16px;
+    }
+}
