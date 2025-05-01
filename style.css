@@ -1,5 +1,6 @@
 .page {
     background-color: #d8e6e6;
+
     margin: 0;
     padding: 0;
     height: 100vh; /* Full height of the screen */
@@ -85,4 +86,3 @@ h1, h2 {
 input::placeholder {
   font-family: 'Trebuchet MS', sans-serif;
 }
-
