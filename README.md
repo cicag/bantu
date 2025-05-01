@@ -22,7 +22,7 @@ Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membant
    ```
 ---
 ## Note
-Pakai branch **tampilan** untuk tampilan
+Pakai branch **tampilan** untuk tampilan  
 Default database  
 
 ```
