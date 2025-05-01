@@ -13,5 +13,10 @@ require 'functions.php';
         <input type="text" name="keyword" size="60" autofocus placeholder="pusing, gemetar" autocomplete="off">
         <button type="submit" name="cari"></a>Cari!</button>
     </form>
+
+  <footer>
+    bantu v0.0.1-pre-alpha
+  </footer>
+
 </body>
 </html>
