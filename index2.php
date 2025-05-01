@@ -43,6 +43,9 @@ $diabetes = cari($_POST["keyword"]);
 <?php endif; ?>
     </div>
 
+ <footer>
+    bantu v0.0.1-pre-alpha
+</footer>
 
 <script src="js/search.js"></script>
 </body>
