@@ -10,11 +10,13 @@ Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membant
 
 ## Jika Ingin Memakai Sendiri
 1. Clone repo ini:
+   
    ```bash
    git clone https://github.com/cicag/bantu
    ```
-2. Pindahkan folder ke dokumen root webserver
-3. Import database (bisa pakai phpmyadmin) atau
+3. Pindahkan folder ke dokumen root webserver
+4. Import database (bisa pakai phpmyadmin) atau
+   
    ```
    ./mysql -u root -p bantu < db.sql
    ```
