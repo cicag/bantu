@@ -3,8 +3,8 @@ Bantu (Bantu Analisis Non-obat dan Tindakan untuk Umum) adalah aplikasi pencaria
 Repo ini dibuat untuk kebutuhan demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
 
 ## Konsep Bantu
-![Gambar 1](images/1.jpg)  
-![Gambar 2](images/2.jpg)
+![Gambar 1](images/1.png)  
+![Gambar 2](images/2.png)
 
 ---
 
