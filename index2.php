@@ -43,7 +43,7 @@ $diabetes = cari($_POST["keyword"]);
 <?php endif; ?>
     </div>
 
- <footer>
+<footer>
     bantu v0.0.1-pre-alpha
 </footer>
 
