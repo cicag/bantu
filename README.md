@@ -4,10 +4,14 @@ Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membant
 
 ## Konsep Bantu
 Konsep:  
-![Gambar 1](images/1.png)  
-Konsep antarmuka (branch tampilan)  
 
-![Gambar 2](images/2.png)
+  
+   ![Gambar 1](images/1.png)  
+
+Konsep antarmuka (branch tampilan):  
+
+  
+   ![Gambar 2](images/2.png)
 
 ---
 
@@ -25,7 +29,7 @@ Konsep antarmuka (branch tampilan)
    ```
 ---
 ## Note
-Pakai branch **tampilan** untuk tampilan  
+Pakai branch **tampilan** untuk tampilan.  
 Default database:  
 
 ```
