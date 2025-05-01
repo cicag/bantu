@@ -18,6 +18,7 @@ Repo ini dibuat untuk kebutuhan demonstrasi konsep **Bantu** sebagai aplikasi ya
    ```
    ./mysql -u root -p bantu < db.sql
    ```
+---
 ##default database
 ```
 address  : localhost
