@@ -1,0 +1,88 @@
+.page {
+    background-color: #d8e6e6;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the screen */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align items to the top */
+    padding-top: 260px;
+    box-sizing: border-box; /* Ensure padding doesn't affect overall height */
+}
+
+.wadahtengah {
+    text-align: center;
+    width: 100%; /* Ensure proper width */
+}
+
+.title {
+    color: #d0021b;
+    font-size: 140px;
+    margin-top: 0px;
+    margin-bottom: -60px; /* Space between title and form */
+}
+
+.subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+/* Form style */
+.formsearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input style */
+.input {
+    width: 100%; /* Make input width 100% on smaller screens */
+    max-width: 400px; /* Maximum width for larger screens */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button style */
+.button {
+    padding: 15px 20px;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for the button */
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Placeholder text */
+.input::placeholder {
+    color: #666;
+    font-style: italic;
+    opacity: 70%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1, h2 {
+    font-family: 'Hammersmith One', sans-serif;
+  }
+
+input::placeholder {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
