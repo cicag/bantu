@@ -1,6 +1,6 @@
 # Bantu
-Bantu (Bantu Analisis Non-obat dan Tindakan untuk Umum) adalah aplikasi pencarian basis data sederhana.  
-Repo ini dibuat untuk kebutuhan demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
+Bantu (Bantu Analisis Non-obat dan Tindakan untuk Umum) aplikasi pencarian basis data sederhana.  
+Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
 
 ## Konsep Bantu
 ![Gambar 1](images/1.png)  
@@ -19,7 +19,7 @@ Repo ini dibuat untuk kebutuhan demonstrasi konsep **Bantu** sebagai aplikasi ya
    ./mysql -u root -p bantu < db.sql
    ```
 ---
-##default database
+## default database
 ```
 address  : localhost
 username  : root
