@@ -16,8 +16,6 @@ require 'functions.php';
 
   <footer>
     bantu v0.0.1-pre-alpha
-
-
   </footer>
 
 </body>
