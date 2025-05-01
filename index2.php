@@ -211,5 +211,9 @@ keywordlive.addEventListener('keyup', function() {
 });
 </script>
 
+<footer class="footer">
+    bantu v0.0.1-pre-alpha
+</footer>
+
 </body>
 </html>
