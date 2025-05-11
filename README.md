@@ -28,7 +28,7 @@ Konsep antarmuka (branch tampilan):
    ```
 ---
 ## Note
-Pakai branch **tampilan** untuk tampilan.  
+Pakai branch ![tampilan](https://github.com/cicag/bantu/tree/tampilan) untuk tampilan.  
 Default database:  
 
 ```
