@@ -1,5 +1,5 @@
 # Bantu
-Bantu (Bantu Analisis Non-obat dan Tindakan untuk Umum), aplikasi pencarian basis data sederhana. Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
+Bantu (akronim untuk Bantu Analisis Non-obat dan Tindakan untuk Umum), aplikasi pencarian basis data sederhana. Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
 
 ## Konsep Bantu
 Konsep:  
