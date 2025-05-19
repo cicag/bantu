@@ -24,6 +24,7 @@ require 'functions.php';
             </svg>
         </button>
     </form>
+
 </div>
 <footer class="footer">
     bantu v0.0.1-pre-alpha
