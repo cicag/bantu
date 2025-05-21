@@ -19,7 +19,7 @@ require 'functions.php';
     </a>
 
   <footer>
-    bantu v0.0.1-pre-alpha
+    <a href="about.php">bantu v0.0.1-pre-alpha</a>
   </footer>
 
 </body>
