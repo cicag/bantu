@@ -3,18 +3,18 @@ require 'functions.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.25">
-    <title>BANTU</title>
+    <title>Bantu</title>
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
 <div class="wadahtengah">
-    <h1 class="title">bantu.</h1>
+    <h1 class="title">Bantu.</h1>
     <h2 class="subtitle">Bagaimana keadaan anda?</h2>
     <form action="index2.php" method="POST" class="formsearch">
         <input type="text" name="keyword" class="input" size="50" autofocus placeholder="  pusing, gemetar" autocomplete="off">
@@ -27,7 +27,7 @@ require 'functions.php';
 
 </div>
 <footer class="footer">
-    <a href="about.php">bantu v0.0.1-pre-alpha</a>
+    <a href="about.php">Bantu v0.0.1-pre-alpha</a>
 </footer>
 </body>
 
