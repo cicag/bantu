@@ -4,10 +4,10 @@ require 'functions.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BANTU</title>
+    <title>Bantu</title>
 </head>
 <body>
-    <h1>bantu.</h1>
+    <h1>Bantu.</h1>
     <h2>Bagaimana keadaan anda?</h2>
     <form action="index2.php" method="POST">
         <input type="text" name="keyword" size="60" autofocus placeholder="pusing, gemetar" autocomplete="off">

@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Bantu - Bantuan Mandiri</title>
+    <title>Bantu</title>
     <style>
         body {
             font-family: sans-serif;
@@ -28,7 +28,7 @@
 <h2>Cara menggunakan</h2>
 <ol>
     <li>Masukkan keluhan apa yang dirasakan pada kotak pencarian awal,</li>
-    <li>Jika keluhan lebih dari satu, pisahkan dengan spasi atau koma dengan format "<code>keluhan1,keluhan2,keluhan3</code>" atau "<code>keluhan1 keluhan2 keluhan3</code>",</li>
+    <li>Jika keluhan lebih dari satu, pisahkan dengan spasi atau koma dengan format "<code>keluhan1,keluhan2,keluhan3</code>", "<code>keluhan1 keluhan2 keluhan3</code>", atau "<code>keluhan1, keluhan2, keluhan3",</li>
     <li>Tekan logo <strong>Cari</strong> di samping kanan bar pencarian.</li>
 </ol>
 

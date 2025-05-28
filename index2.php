@@ -6,7 +6,7 @@ $diabetes = cari($_POST["keyword"]);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BANTU</title>
+    <title>Bantu</title>
 </head>
 <body>
 <br>
@@ -44,7 +44,7 @@ $diabetes = cari($_POST["keyword"]);
     </div>
 
 <footer>
-    <a href="about.php">bantu v0.0.1-pre-alpha</a>
+    <a href="about.php">Bantu v0.0.1-pre-alpha</a>
 </footer>
 
 <script src="js/search.js"></script>
