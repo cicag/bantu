@@ -8,6 +8,7 @@ require 'functions.php';
 </head>
 <body>
     <h1>Bantu.</h1>
+    <h2>Diabetes</h2>
     <h2>Bagaimana keadaan anda?</h2>
     <form action="index2.php" method="POST">
         <input type="text" name="keyword" size="60" autofocus placeholder="pusing, gemetar" autocomplete="off">
