@@ -1,5 +1,5 @@
 # Bantu
-Bantu (akronim untuk Bantu Analisis Non-obat dan Tindakan untuk Umum), aplikasi pencarian basis data sederhana. Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
+Bantu (akronim untuk Bantu Analisis Non-obat dan Tindakan untuk Umum), secara umum adalah aplikasi pencarian basis data sederhana. Repo ini dibuat untuk demonstrasi konsep **Bantu** sebagai aplikasi yang membantu mengetahui tindakan-tindakan yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).
 
 ## Konsep Bantu
 Konsep:  
@@ -20,15 +20,16 @@ Konsep antarmuka (branch tampilan):
    ```bash
    git clone https://github.com/cicag/bantu
    ```
-3. Pindahkan folder ke dokumen root webserver
-4. Import database (bisa pakai phpmyadmin) atau:
+2. Pindahkan folder ke dokumen root webserver
+3. Import database (bisa pakai phpmyadmin) atau:
    
-   ```
+   ```bash
    ./mysql -u root -p bantu < db.sql
    ```
+4. Jalankan webserver dan akses dari localhost
 ---
 ## Note
-Pakai branch ![tampilan](https://github.com/cicag/bantu/tree/tampilan) untuk tampilan.  
+Pakai branch ![tampilan](https://github.com/cicag/bantu/tree/tampilan) untuk mendapatkan tampilan.  
 Default database:  
 
 ```
