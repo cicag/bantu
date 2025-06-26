@@ -1,5 +1,5 @@
 <?php
-require '../functions.php';
+require 'functions.php';
 $keyword = $_GET["keywordlive"];
 $diabetes = cari($keyword);
 ?>
@@ -18,7 +18,7 @@ $diabetes = cari($keyword);
             <div class="tab-content" id="gejala-<?= $row["id"]; ?>">
                 <div class="advice-box">
                       <?php if (!empty($row["gbrgejala"])): ?>
-                        <div style="margin-top:10px;"><img src="img/<?= $row["gbrgejala"]; ?>" width="300"></div>
+                        <div style="margin-top:10px;"><img src="asset/img/<?= $row["gbrgejala"]; ?>" width="300"></div>
                     <?php endif; ?>
                     <?= nl2br($row["gejala"]); ?>
                   
@@ -29,7 +29,7 @@ $diabetes = cari($keyword);
     <div class="advice-box">
         <?php if (!empty($row["gbrsaran"])): ?>
             <div style="margin-top:10px;">
-                <img src="img/<?= $row["gbrsaran"]; ?>" width="300">
+                <img src="asset/img/<?= $row["gbrsaran"]; ?>" width="300">
             </div>
         <?php else: ?>
             <div style="margin-top:10px;">Gambar tidak tersedia.</div> <!-- Pesan saat gambar kosong -->

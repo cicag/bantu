@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require 'search/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ require 'functions.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.25">
     <title>Bantu</title>
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page">
 <div class="wadahtengah">
@@ -27,7 +27,7 @@ require 'functions.php';
 
 </div>
 <footer class="footer">
-    <a href="about.php">Bantu v0.0.1-pre-alpha</a>
+    <a href="src/about.php">Bantu v0.0.1-pre-alpha</a>
 </footer>
 </body>
 

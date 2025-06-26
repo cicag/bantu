@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require 'search/functions.php';
 $diabetes = cari($_POST["keyword"]);
 ?>
 
@@ -130,7 +130,7 @@ $diabetes = cari($_POST["keyword"]);
             <div class="tab-content" id="gejala-<?= $row["id"]; ?>">
                 <div class="advice-box">
                     <?php if (!empty($row["gbrgejala"])): ?>
-                        <div style="margin-top:10px;"><img src="img/<?= $row["gbrgejala"]; ?>" width="300"></div>
+                        <div style="margin-top:10px;"><img src="asset/img/<?= $row["gbrgejala"]; ?>" width="300"></div>
                     <?php endif; ?>
                     <?= nl2br($row["gejala"]); ?>
                 </div>
@@ -140,7 +140,7 @@ $diabetes = cari($_POST["keyword"]);
                 <div class="advice-box">
                     <?php if (!empty($row["gbrsaran"])): ?>
                         <div style="margin-top:10px;">
-                            <img src="img/<?= $row["gbrsaran"]; ?>" width="300">
+                            <img src="asset/img/<?= $row["gbrsaran"]; ?>" width="300">
                         </div>
                     <?php else: ?>
                         <div style="margin-top:10px;">Gambar tidak tersedia.</div>
@@ -161,58 +161,10 @@ $diabetes = cari($_POST["keyword"]);
 <?php endif; ?>
 </div>
 
-<script>
-var keywordlive = document.getElementById('keywordlive');
-var wadah = document.getElementById('wadah');
-
-// Fungsi untuk inisialisasi event tab
-function inisialisasiTab() {
-    document.querySelectorAll('.tab-btns').forEach(btnGroup => {
-        const buttons = btnGroup.querySelectorAll('.tab-btn');
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                const targetId = button.dataset.tab;
-
-                buttons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-
-                const card = button.closest('.card');
-                const contents = card.querySelectorAll('.tab-content');
-
-                contents.forEach(content => {
-                    content.style.display = 'none';
-                });
-
-                const activeContent = card.querySelector(`#${targetId}`);
-                if (activeContent) {
-                    activeContent.style.display = 'block';
-                }
-            });
-        });
-    });
-}
-
-
-inisialisasiTab();
-
-// Event live search
-keywordlive.addEventListener('keyup', function() {
-    var xhr = new XMLHttpRequest();
-
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            wadah.innerHTML = xhr.responseText;
-            inisialisasiTab(); // <- ini penting
-        }
-    };
-
-    xhr.open('GET', 'search/dx.php?keywordlive=' + encodeURIComponent(keywordlive.value), true);
-    xhr.send();
-});
-</script>
+<script src="js/search.js"></script>
 
 <footer class="footer">
-    <a href="about.php">Bantu v0.0.1-pre-alpha</a>
+    <a href="src/about.php">Bantu v0.0.1-pre-alpha</a>
 </footer>
 
 </body>
