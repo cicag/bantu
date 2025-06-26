@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require 'src/functions.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,12 +15,12 @@ require 'functions.php';
         <button type="submit" name="cari"></a>Cari!</button>
     </form>
     <br>
-    <a href="demovid.php">
+    <a href="src/demovid.php">
       <button>Demo Fungsi Video</button>
     </a>
 
   <footer>
-    <a href="about.php">bantu v0.0.1-pre-alpha</a>
+    <a href="src/about.php">bantu v0.0.1-pre-alpha</a>
   </footer>
 
 </body>

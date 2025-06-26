@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require 'src/functions.php';
 $diabetes = cari($_POST["keyword"]);
 ?>
 
@@ -44,7 +44,7 @@ $diabetes = cari($_POST["keyword"]);
     </div>
 
 <footer>
-    <a href="about.php">Bantu v0.0.1-pre-alpha</a>
+    <a href="src/about.php">Bantu v0.0.1-pre-alpha</a>
 </footer>
 
 <script src="js/search.js"></script>
