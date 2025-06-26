@@ -1,8 +1,8 @@
 <?php
-//koneksql
+//konek ke database
 $db = mysqli_connect("localhost", "root", "1234", "bantu");
 
-//kontainerdata
+//kontainer data kosong
 function query($query) {
     global $db;
     $dba = mysqli_query($db, $query);
@@ -13,26 +13,27 @@ function query($query) {
 	return $rows;
 }
 
-//pencari
+//fungsi pencarian dengan beberapa kondisi
 function cari($keyword) {
     global $db;
     $keyword = trim($keyword);
 
-    //input kosong
+//gunakan ini jika input user kosong
     if ($keyword === '') {
         return [];
     }
-    // Jika input angka
+//gunakan ini jika input user angka
     if (is_numeric($keyword)) {
         $keyword = (int) $keyword;
         $query = "SELECT * FROM diabetes WHERE $keyword BETWEEN nummin AND nummax";
     } else {
-        // Input teks
+ //gunakan ini jika input user teks
         $keyword = mysqli_real_escape_string($db, $keyword);
 
-        // Support multi keyword pakai spasi atau koma
+//pisahkan keyword berdasarkan spasi dan koma
         $keywords = preg_split('/[\s,]+/', $keyword);
 
+//Susun query per-keyword yang dipisah
         $conditions = [];
         foreach ($keywords as $word) {
             $word = mysqli_real_escape_string($db, $word);
@@ -43,6 +44,7 @@ function cari($keyword) {
                 tag LIKE '%$word%'
             )";
         }
+// Gabungkan query menjadi satu
         $query = "SELECT * FROM diabetes WHERE " . implode(" OR ", $conditions);
     }
 

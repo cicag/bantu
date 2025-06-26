@@ -1,4 +1,4 @@
-//grab id
+//Tangkap ID dari index2.php
 var keywordlive = document.getElementById('keywordlive');
 var tombolnyari = document.getElementById('tombolnyari');
 var wadah = document.getElementById('wadah');
@@ -16,7 +16,7 @@ keywordlive.addEventListener('keyup', function() {
         }
     }
 
-    //eksekusi ajax
+    //eksekusi ajax, kirim GET ke search/dx.php
     xhr.open('GET', 'search/dx.php?keywordlive=' + keywordlive.value, true);
     xhr.send();
 });
