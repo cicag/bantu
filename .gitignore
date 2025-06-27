@@ -1,4 +1,2 @@
-asset/img/hipoberat.webp
-asset/img/prmdmakan.webp
-asset/img/smbg.webp
-
+asset/img/*
+!asset/img/bening.webp
