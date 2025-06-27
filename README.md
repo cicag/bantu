@@ -37,4 +37,4 @@ username  : root
 password  : 1234
 database  : bantu
 ```
-Bisa disesuaikan di functions.php
+Bisa disesuaikan di search/functions.php
