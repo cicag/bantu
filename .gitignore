@@ -1,2 +1,2 @@
-img/*
-vid/*
+asset/img/*
+!asset/img/bening.webp
