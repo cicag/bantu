@@ -23,7 +23,7 @@
 
 <h1>Bantu</h1>
 
-<p><strong>Bantu</strong> (akronim untuk <em>Bantu Analisis Non-obat dan Tindakan untuk Umum</em>), aplikasi yang membantu mengetahui tindakan-tindakan non-medis yang bisa dilakukan di rumah (saat ini hanya untuk konteks diabetes).</p>
+<p><strong>Bantu</strong> (akronim untuk <em>Bantu Analisis Non-obat dan Tindakan untuk Umum</em>), aplikasi yang membantu mengetahui tindakan-tindakan non-medis yang bisa dilakukan di rumah (saat ini untuk konteks diabetes).</p>
 
 <h2>Cara menggunakan</h2>
 <ol>
